@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>34IB Studio</title>
+<meta name="description" content="34IB Studio – Games and developer tools on Steam, Unity Asset Store, and Fab.">
+<meta property="og:title" content="34IB Studio">
+<meta property="og:description" content="Games and developer tools – Steam, Unity Asset Store, Fab.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0c0f;--card:#12141a;--muted:#a7b0bf;--text:#e7ecf3;--accent:#6ee7b7;--link:#7dd3fc;--border:#1e2230}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:linear-gradient(180deg,#0b0c0f,#0e1117 40%,#0b0c0f);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;letter-spacing:.1px}
+.container{max-width:1040px;margin:0 auto;padding:24px}
+.header{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}
+.badge{font-size:12px;padding:4px 8px;border:1px solid var(--border);border-radius:999px;color:var(--muted)}
+.nav{display:flex;gap:10px;flex-wrap:wrap}
+.nav a{padding:10px 14px;border:1px solid var(--border);border-radius:12px;color:var(--text);text-decoration:none;transition:all .2s ease}
+.nav a:hover{transform:translateY(-2px);border-color:#2a3042}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:end;padding:36px 0}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
+.title{font-size:48px;line-height:1.05;margin:16px 0 12px}
+.subtitle{font-size:16px;color:var(--muted);max-width:60ch}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.button{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600;border:1px solid var(--border);background:linear-gradient(180deg,#141822,#0e121a)}
+.button:hover{transform:translateY(-2px)}
+.button.primary{background:linear-gradient(180deg,#1b2230,#141a24);border-color:#263049}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px}
+.stat .label{color:var(--muted);font-size:12px}
+.stat .value{font-size:20px;font-weight:700;margin-top:6px}
+.section{padding:30px 0}
+.section h2{font-size:22px;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media (max-width:800px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.card h3{margin:0;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.card .actions{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
+.link{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--link);font-weight:600}
+.pill{font-size:12px;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:4px 10px}
+.footer{display:flex;justify-content:space-between;align-items:center;padding:28px 0;color:var(--muted);font-size:13px}
+.footer a{color:var(--muted);text-decoration:none}
+hr{border:0;border-top:1px solid var(--border);margin:28px 0}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div style="width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#38bdf8 70%);"></div>
+        34IB Studio
+        <span class="badge">Games & Tools</span>
+      </div>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#stores">Stores</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1 class="title">Independent games and developer tools</h1>
+        <p class="subtitle">We build fast, fun, and technically solid experiences. Find our games on Steam and our tools on Unity Asset Store and Fab.</p>
+        <div class="cta">
+          <a class="button primary" href="https://store.steampowered.com/app/3594790/Forgotten_Signal_Portal/" target="_blank" rel="noopener">Forgotten Signal: Portal</a>
+          <a class="button" href="https://store.steampowered.com/app/3608480/Funny_Cargo_Simulator/" target="_blank" rel="noopener">Funny Cargo Simulator</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="label">Platforms</div><div class="value">Steam • Unity • Fab</div></div>
+          <div class="stat"><div class="label">Focus</div><div class="value">Games • Tools • UI</div></div>
+          <div class="stat"><div class="label">Status</div><div class="value">Active</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="height:100%">
+          <h3>Quick Links</h3>
+          <div class="grid" style="grid-template-columns:1fr;gap:10px">
+            <a class="link" href="https://store.steampowered.com/app/3594790/Forgotten_Signal_Portal/" target="_blank" rel="noopener">Forgotten Signal: Portal →</a>
+            <a class="link" href="https://store.steampowered.com/app/3608480/Funny_Cargo_Simulator/" target="_blank" rel="noopener">Funny Cargo Simulator →</a>
+            <a class="link" href="https://assetstore.unity.com/publishers/101389" target="_blank" rel="noopener">Unity Asset Store →</a>
+            <a class="link" href="https://www.fab.com/sellers/34IB%20Studio" target="_blank" rel="noopener">Fab Profile →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+            <h3>Forgotten Signal: Portal</h3>
+            <span class="pill">Steam</span>
+          </div>
+          <p>Co‑op horror adventure. Use unique abilities, survive, and follow the signal.</p>
+          <div class="actions">
+            <a class="link" href="https://store.steampowered.com/app/3594790/Forgotten_Signal_Portal/" target="_blank" rel="noopener">Store Page →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+            <h3>Funny Cargo Simulator</h3>
+            <span class="pill">Steam</span>
+          </div>
+          <p>Relaxing physics‑driven cargo simulation. Load, drive, deliver.</p>
+          <div class="actions">
+            <a class="link" href="https://store.steampowered.com/app/3608480/Funny_Cargo_Simulator/" target="_blank" rel="noopener">Store Page →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stores" class="section">
+      <h2>Stores</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Unity Asset Store</h3>
+          <p>Editor utilities and in‑game packages built for performance and productivity.</p>
+          <div class="actions">
+            <a class="link" href="https://assetstore.unity.com/publishers/101389" target="_blank" rel="noopener">Profile →</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Fab</h3>
+          <p>Modular characters, UI, and helper content.</p>
+          <div class="actions">
+            <a class="link" href="https://www.fab.com/sellers/34IB%20Studio" target="_blank" rel="noopener">Seller Page →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>For collaboration or publishing inquiries, reach out:</p>
+        <div class="actions">
+          <a class="button" href="mailto:ibcontact34@gmail.com">Email</a>
+          <a class="button" href="https://store.steampowered.com/developer/34IBStudio" target="_blank" rel="noopener">Steam Developer</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="y"></span> 34IB Studio</div>
+      <div></div>
+    </footer>
+  </div>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear()
+</script>
+</body>
+</html>
